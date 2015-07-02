@@ -1,0 +1,452 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CEA5ED4A1B44EFD30072136F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA5ED491B44EFD30072136F /* AppDelegate.swift */; };
+		CEA5ED4C1B44EFD30072136F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA5ED4B1B44EFD30072136F /* ViewController.swift */; };
+		CEA5ED4F1B44EFD30072136F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEA5ED4D1B44EFD30072136F /* Main.storyboard */; };
+		CEA5ED511B44EFD30072136F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEA5ED501B44EFD30072136F /* Images.xcassets */; };
+		CEA5ED541B44EFD30072136F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEA5ED521B44EFD30072136F /* LaunchScreen.xib */; };
+		CEA5ED601B44EFD30072136F /* PostSNSSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA5ED5F1B44EFD30072136F /* PostSNSSampleTests.swift */; };
+		CEA5ED6A1B45151A0072136F /* PostInstagram.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA5ED691B45151A0072136F /* PostInstagram.swift */; };
+		CEA5ED6E1B45153C0072136F /* button_facebook.png in Resources */ = {isa = PBXBuildFile; fileRef = CEA5ED6B1B45153C0072136F /* button_facebook.png */; };
+		CEA5ED6F1B45153C0072136F /* button_insta.png in Resources */ = {isa = PBXBuildFile; fileRef = CEA5ED6C1B45153C0072136F /* button_insta.png */; };
+		CEA5ED701B45153C0072136F /* button_line.png in Resources */ = {isa = PBXBuildFile; fileRef = CEA5ED6D1B45153C0072136F /* button_line.png */; };
+		CEA5ED721B4515430072136F /* button_twitter.png in Resources */ = {isa = PBXBuildFile; fileRef = CEA5ED711B4515430072136F /* button_twitter.png */; };
+		CEA5ED741B4518130072136F /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEA5ED731B4518130072136F /* Social.framework */; };
+		CEA5ED761B4518B50072136F /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = CEA5ED751B4518B50072136F /* logo.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CEA5ED5A1B44EFD30072136F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEA5ED3C1B44EFD30072136F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEA5ED431B44EFD30072136F;
+			remoteInfo = PostSNSSample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CEA5ED441B44EFD30072136F /* PostSNSSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PostSNSSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEA5ED481B44EFD30072136F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEA5ED491B44EFD30072136F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CEA5ED4B1B44EFD30072136F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CEA5ED4E1B44EFD30072136F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CEA5ED501B44EFD30072136F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CEA5ED531B44EFD30072136F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		CEA5ED591B44EFD30072136F /* PostSNSSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PostSNSSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEA5ED5E1B44EFD30072136F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEA5ED5F1B44EFD30072136F /* PostSNSSampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostSNSSampleTests.swift; sourceTree = "<group>"; };
+		CEA5ED691B45151A0072136F /* PostInstagram.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostInstagram.swift; sourceTree = "<group>"; };
+		CEA5ED6B1B45153C0072136F /* button_facebook.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_facebook.png; sourceTree = "<group>"; };
+		CEA5ED6C1B45153C0072136F /* button_insta.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_insta.png; sourceTree = "<group>"; };
+		CEA5ED6D1B45153C0072136F /* button_line.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_line.png; sourceTree = "<group>"; };
+		CEA5ED711B4515430072136F /* button_twitter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_twitter.png; sourceTree = "<group>"; };
+		CEA5ED731B4518130072136F /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		CEA5ED751B4518B50072136F /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEA5ED411B44EFD30072136F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEA5ED741B4518130072136F /* Social.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEA5ED561B44EFD30072136F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CEA5ED3B1B44EFD30072136F = {
+			isa = PBXGroup;
+			children = (
+				CEA5ED731B4518130072136F /* Social.framework */,
+				CEA5ED461B44EFD30072136F /* PostSNSSample */,
+				CEA5ED5C1B44EFD30072136F /* PostSNSSampleTests */,
+				CEA5ED451B44EFD30072136F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CEA5ED451B44EFD30072136F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEA5ED441B44EFD30072136F /* PostSNSSample.app */,
+				CEA5ED591B44EFD30072136F /* PostSNSSampleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEA5ED461B44EFD30072136F /* PostSNSSample */ = {
+			isa = PBXGroup;
+			children = (
+				CEA5ED751B4518B50072136F /* logo.png */,
+				CEA5ED711B4515430072136F /* button_twitter.png */,
+				CEA5ED6B1B45153C0072136F /* button_facebook.png */,
+				CEA5ED6C1B45153C0072136F /* button_insta.png */,
+				CEA5ED6D1B45153C0072136F /* button_line.png */,
+				CEA5ED691B45151A0072136F /* PostInstagram.swift */,
+				CEA5ED491B44EFD30072136F /* AppDelegate.swift */,
+				CEA5ED4B1B44EFD30072136F /* ViewController.swift */,
+				CEA5ED4D1B44EFD30072136F /* Main.storyboard */,
+				CEA5ED501B44EFD30072136F /* Images.xcassets */,
+				CEA5ED521B44EFD30072136F /* LaunchScreen.xib */,
+				CEA5ED471B44EFD30072136F /* Supporting Files */,
+			);
+			path = PostSNSSample;
+			sourceTree = "<group>";
+		};
+		CEA5ED471B44EFD30072136F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CEA5ED481B44EFD30072136F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CEA5ED5C1B44EFD30072136F /* PostSNSSampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				CEA5ED5F1B44EFD30072136F /* PostSNSSampleTests.swift */,
+				CEA5ED5D1B44EFD30072136F /* Supporting Files */,
+			);
+			path = PostSNSSampleTests;
+			sourceTree = "<group>";
+		};
+		CEA5ED5D1B44EFD30072136F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CEA5ED5E1B44EFD30072136F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEA5ED431B44EFD30072136F /* PostSNSSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEA5ED631B44EFD30072136F /* Build configuration list for PBXNativeTarget "PostSNSSample" */;
+			buildPhases = (
+				CEA5ED401B44EFD30072136F /* Sources */,
+				CEA5ED411B44EFD30072136F /* Frameworks */,
+				CEA5ED421B44EFD30072136F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PostSNSSample;
+			productName = PostSNSSample;
+			productReference = CEA5ED441B44EFD30072136F /* PostSNSSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CEA5ED581B44EFD30072136F /* PostSNSSampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEA5ED661B44EFD30072136F /* Build configuration list for PBXNativeTarget "PostSNSSampleTests" */;
+			buildPhases = (
+				CEA5ED551B44EFD30072136F /* Sources */,
+				CEA5ED561B44EFD30072136F /* Frameworks */,
+				CEA5ED571B44EFD30072136F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEA5ED5B1B44EFD30072136F /* PBXTargetDependency */,
+			);
+			name = PostSNSSampleTests;
+			productName = PostSNSSampleTests;
+			productReference = CEA5ED591B44EFD30072136F /* PostSNSSampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEA5ED3C1B44EFD30072136F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = YukaChiba;
+				TargetAttributes = {
+					CEA5ED431B44EFD30072136F = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					CEA5ED581B44EFD30072136F = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = CEA5ED431B44EFD30072136F;
+					};
+				};
+			};
+			buildConfigurationList = CEA5ED3F1B44EFD30072136F /* Build configuration list for PBXProject "PostSNSSample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CEA5ED3B1B44EFD30072136F;
+			productRefGroup = CEA5ED451B44EFD30072136F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEA5ED431B44EFD30072136F /* PostSNSSample */,
+				CEA5ED581B44EFD30072136F /* PostSNSSampleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEA5ED421B44EFD30072136F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEA5ED6F1B45153C0072136F /* button_insta.png in Resources */,
+				CEA5ED4F1B44EFD30072136F /* Main.storyboard in Resources */,
+				CEA5ED541B44EFD30072136F /* LaunchScreen.xib in Resources */,
+				CEA5ED721B4515430072136F /* button_twitter.png in Resources */,
+				CEA5ED761B4518B50072136F /* logo.png in Resources */,
+				CEA5ED701B45153C0072136F /* button_line.png in Resources */,
+				CEA5ED511B44EFD30072136F /* Images.xcassets in Resources */,
+				CEA5ED6E1B45153C0072136F /* button_facebook.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEA5ED571B44EFD30072136F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEA5ED401B44EFD30072136F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEA5ED4C1B44EFD30072136F /* ViewController.swift in Sources */,
+				CEA5ED4A1B44EFD30072136F /* AppDelegate.swift in Sources */,
+				CEA5ED6A1B45151A0072136F /* PostInstagram.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEA5ED551B44EFD30072136F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEA5ED601B44EFD30072136F /* PostSNSSampleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CEA5ED5B1B44EFD30072136F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEA5ED431B44EFD30072136F /* PostSNSSample */;
+			targetProxy = CEA5ED5A1B44EFD30072136F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CEA5ED4D1B44EFD30072136F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEA5ED4E1B44EFD30072136F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CEA5ED521B44EFD30072136F /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEA5ED531B44EFD30072136F /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CEA5ED611B44EFD30072136F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CEA5ED621B44EFD30072136F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CEA5ED641B44EFD30072136F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PostSNSSample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CEA5ED651B44EFD30072136F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PostSNSSample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CEA5ED671B44EFD30072136F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PostSNSSampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PostSNSSample.app/PostSNSSample";
+			};
+			name = Debug;
+		};
+		CEA5ED681B44EFD30072136F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PostSNSSampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PostSNSSample.app/PostSNSSample";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEA5ED3F1B44EFD30072136F /* Build configuration list for PBXProject "PostSNSSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEA5ED611B44EFD30072136F /* Debug */,
+				CEA5ED621B44EFD30072136F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEA5ED631B44EFD30072136F /* Build configuration list for PBXNativeTarget "PostSNSSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEA5ED641B44EFD30072136F /* Debug */,
+				CEA5ED651B44EFD30072136F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CEA5ED661B44EFD30072136F /* Build configuration list for PBXNativeTarget "PostSNSSampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEA5ED671B44EFD30072136F /* Debug */,
+				CEA5ED681B44EFD30072136F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CEA5ED3C1B44EFD30072136F /* Project object */;
+}
